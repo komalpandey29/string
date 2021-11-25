@@ -1,13 +1,23 @@
+// java program to reverse a word
 
-//string 
+import java.io.*;
+import java.util.Scanner;
 
-import java.util.*;
-public class abc{
-public static void main(String args[]) {
-String initial="hard work will provide you success", rev="";
-int length=initial.length();
-for(int i=length-1;i>=0;i--)
-  rev=rev+initial.charAt(i);
-System.out.println("Reversed string: "+rev);
+class abc {
+	public static void main (String[] args) {
+	
+		String str= "workhard for best future", nstr="";
+		char ch;
+	
+	System.out.print("Original word: "+str);
+	
+	for (int i=0; i<str.length(); i++)
+	{
+		ch= str.charAt(i); //extracts each character
+		nstr= ch+nstr; //adds each character in front of the existing string
+	}
+	System.out.println("\n Reversed word:\n "+ nstr);
+	}
 }
-}
+
+//Contributed by Tiyasa
