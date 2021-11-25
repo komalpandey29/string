@@ -19,5 +19,3 @@ class abc {
 	System.out.println("\n Reversed word:\n "+ nstr);
 	}
 }
-
-//Contributed by Tiyasa
